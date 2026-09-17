@@ -1,0 +1,11 @@
+name: hello CI
+
+on:
+  push:
+
+jobs:
+ hello:
+  runs-on: ubuntu-latest
+  steps:
+    -name: Say hello
+     run: echo "Hello, CI!"
